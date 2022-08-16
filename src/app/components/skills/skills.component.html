@@ -1,0 +1,24 @@
+<div id="skills">
+    <h3 class="text-center skills-title my-4 py-4">Experience with<span class="code-brace">
+      </span>
+    </h3>
+    <div class="my-4 justify-content-center mx-auto mt-5 row w-100 gap-4 mb-5">
+      <div
+        class="card my-2 col-lg-3 col-md-5 col-sm-10 p-2 py-3 skill-card py-3"
+        *ngFor="let item of mySkills"
+      >
+        <i class="fab" [ngClass]="item.icon"></i><br />
+        <span class="d-flex justify-content-start">
+          <span class="skill-name fs-5">
+            <br />
+            <span class="ps-3"
+              >
+             {{ item.skill }}
+            </span>
+            <br />
+            <br />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>

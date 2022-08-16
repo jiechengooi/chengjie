@@ -1,0 +1,63 @@
+.about-title {
+    color: var(--color-3);
+    font-size: 2.5rem;
+  }
+  .about-img {
+    border-radius: 10px;
+    filter: saturate(50%);
+  }
+  .overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  #about {
+    width: 100%;
+  }
+  .name {
+    color: var(--color-2);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .desc-about {
+    color: var(--color-3);
+  }
+  .desc-about::selection,
+  .desc-about span::selection {
+    color: rgb(214, 51, 51);
+  }
+  .name::selection,
+  .name:hover,
+  .desc-about:hover {
+    color: var(--color-2);
+  }
+  .desc-about span i {
+    color: var(--color-5);
+  }
+  @media screen and (max-width: 769px) {
+    .about-me {
+      align-items: center;
+    }
+    .desc-about.me {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 525px) {
+    .other {
+      padding-left: 15px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .desc-about.me {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      text-align: start;
+    }
+    .name {
+      font-size: calc(1.2rem + 0.6vw) !important;
+    }
+    .about-content.row {
+      --bs-gutter-x: 0 !important;
+    }
+  }

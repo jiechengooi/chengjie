@@ -1,0 +1,41 @@
+<div id="about">
+    <h3 class="text-center about-title mt-4">
+      About me
+    </h3>
+    <div class="about-content row w-100 my-4 mt-3">
+      <div class="col-md-5 mt-5 d-flex justify-content-center">
+        <span class="position-relative">
+          <div
+            class="position-absolute overlay end-0 start-0 top-0 bottom-0"
+          ></div>
+          <img
+            class="about-img"
+            width="400"
+            src="assets/chengjie.jpg"
+            alt="chengjie"
+          />
+        </span>
+      </div>
+      <div class="col-md-7 d-flex mt-5 px-3 flex-column about-me">
+        <div class="name fs-3 my-2">Good day~~~</div>
+        <p class="my-3 desc-about me pe-3">
+          Please allow me to introduce myself. 
+          <br>I'm cheng jie. I am well versed in unix operating system and python programming language. As a multilingual speaker, I can understand very well in these four languages (English, Malay, Indonesian and Mandarin) and develop web content in these languages. 
+          <br>At the moment I am mainly specializing in full stack MERN, Next.js and headless cms project. Although I am not really into MEAN stack project. But I tried to explore angular too. This personal site was created using Angular.js
+        </p>
+        <div class="other">
+          <h4 class="name">
+            Further Details 
+          </h4>
+          <p class="desc-about ps-3">
+            <span *ngFor="let item of otherDetails">
+              <span>{{ item.key }} <span class="braces">: </span>
+              {{ item.value }}
+              </span>
+              <br />
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
