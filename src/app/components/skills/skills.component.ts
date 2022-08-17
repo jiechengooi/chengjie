@@ -26,6 +26,9 @@ export class SkillsComponent implements OnInit {
       skill: 'Express',
     },
     {
+      skill: 'Angular.',
+    },
+    {
       skill: 'Node.js',
     },
     {
@@ -56,9 +59,8 @@ export class SkillsComponent implements OnInit {
       skill: 'Github',
     },
     {
-      skill: 'Ubuntu',
-    },
-
+      skill: 'Angular.',
+    }
   ];
   constructor() {}
 
