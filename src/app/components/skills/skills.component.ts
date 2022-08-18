@@ -26,10 +26,10 @@ export class SkillsComponent implements OnInit {
       skill: 'Express',
     },
     {
-      skill: 'Angular.',
+      skill: 'Angular',
     },
     {
-      skill: 'Node.js',
+      skill: 'Node',
     },
     {
       skill: 'Gatsby',
@@ -41,10 +41,16 @@ export class SkillsComponent implements OnInit {
       skill: 'StrapiCMS',
     },
     {
-      skill: 'Google Firebase',
+      skill: 'Contentful',
     },
     {
-      skill: 'Next.js',
+      skill: 'Snipcart',
+    },
+    {
+      skill: 'Google API',
+    },
+    {
+      skill: 'Next',
     },
     {
       skill: 'TypeScript',
@@ -53,14 +59,14 @@ export class SkillsComponent implements OnInit {
       skill: 'Tailwind',
     },
     {
-      skill: 'Mongodb, postgresql, sqlite',
+      skill: 'Database(Mongodb, Postgresql, Sqlite)',
     },
     {
       skill: 'Github',
     },
     {
-      skill: 'Angular.',
-    }
+      skill: 'Unix Operating System',
+    },
   ];
   constructor() {}
 
