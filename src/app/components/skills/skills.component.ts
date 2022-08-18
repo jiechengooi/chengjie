@@ -59,7 +59,7 @@ export class SkillsComponent implements OnInit {
       skill: 'Tailwind',
     },
     {
-      skill: 'Database(Mongodb, Postgresql, Sqlite)',
+      skill: 'Mongodb, Postgresql, Sqlite',
     },
     {
       skill: 'Github',
