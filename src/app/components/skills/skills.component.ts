@@ -20,7 +20,13 @@ export class SkillsComponent implements OnInit {
       skill: 'JSON',
     },
     {
+      skill: 'Node',
+    },
+    {
       skill: 'React',
+    },
+    {
+      skill: 'Next.js',
     },
     {
       skill: 'Express',
@@ -29,7 +35,10 @@ export class SkillsComponent implements OnInit {
       skill: 'Angular',
     },
     {
-      skill: 'Node',
+      skill: 'GraphQl',
+    },
+    {
+      skill: 'Apollo',
     },
     {
       skill: 'Gatsby',
@@ -50,9 +59,6 @@ export class SkillsComponent implements OnInit {
       skill: 'Google API',
     },
     {
-      skill: 'Next',
-    },
-    {
       skill: 'TypeScript',
     },
     {
@@ -62,7 +68,7 @@ export class SkillsComponent implements OnInit {
       skill: 'Mongodb, Postgresql, Sqlite',
     },
     {
-      skill: 'Github',
+      skill: 'Git',
     },
     {
       skill: 'Unix Operating System',
