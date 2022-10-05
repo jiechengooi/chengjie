@@ -1,5 +1,5 @@
 # Cheng Jie
-# This portfolio is developed with vue.js. This is not a full-stack-project, as it only covers the front-end.
+# This portfolio is developed with vue.js and typescript. This is not a full-stack-project, as it only covers the front-end.
 # PortfolioChengjie
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
